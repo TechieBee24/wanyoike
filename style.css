@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home {
+    background-color: rgb(243, 243, 243);
+    background-blend-mode: multiply;
+    /*background-image: url(pexels-francesco-ungaro-1525041.jpg);*/
+    width: 78.75%;
+    margin: auto;
+}
+.tab {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.tab a {
+    float: right;
+    display: block;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 900;
+
+}
+
+.tab a:hover {
+    color: rgb(88, 88, 88);
+    stroke: #fff;
+    box-shadow: #d7d7d7;
+    
+}
+
+.topDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.grid1 {
+    margin-top: 50px;
+    flex: 1;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.grid1 h1{
+    color: rgb(30,30, 30);
+    font-size: 70px;
+}
+.grid1 h2{
+    color: rgb(37, 37, 37);
+    font-size: 40px;
+}
+.grid1 p{
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+}
+
+.grid2 {
+    flex: 1;
+    text-align: center;
+}
+
+.grid2 img {
+    width: 75%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: auto;
+    margin-top: 30px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    border-color: rgb(30, 30, 30);
+    border-style: solid;
+}
+.social{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.social .iconsfooter{
+    color: rgb(30, 30, 30);
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+#myserv{
+    color: rgb(50, 50, 50);
+    font-size: 30px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.services{
+    background-color: white;
+    width: 69.75%;
+    margin: auto;
+    background-size: 100vw 100vh;
+    padding: 70px;
+}
+#myserve{
+    color: rgb(30,30, 30);
+    font-size: 30px;
+    width: 50%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.row{
+    display: flex;
+    width: 69.75%;
+    margin: auto;
+    
+}
+.col{
+    border-radius:  8px;
+    backdrop-filter: blur(20px);
+    background-color: rgb(30,30, 30);
+    box-shadow: 0 1px 12px rgba(0,0,0, 0.25);
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    margin-left: 50px;
+
+}
+.col h2{
+    color: #ebebeb;
+}
+.col p{
+    color: #d7d7d7;
+    font-size: 15px;
+   
+}
+.col ul{
+    font-size: 15px;
+    color: #e5e5e5;
+}
+
+
+.cv_card{
+    border-radius:  20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.9);
+    background-repeat: inherit;
+    box-shadow: 0 1px 12px rgba(0,0,0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    
+}
+.cv_card p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(30, 30, 30);
+    margin-right: 60px;
+    text-emphasis-style: bold;
+}
+.btn{
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+.buttn{
+    background-color: rgb(30,30, 30); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 180px;
+  padding: 15px;
+}
+.buttn:hover{
+    background-color: rgb(109, 109, 109);
+}
+.cv{
+    background-color: rgb(230, 230, 230);
+    /*background-image: url(pexels-veeterzy-39811.jpg);*/
+    
+    width: 69.75%;
+    margin: auto;
+    background-size: 100vw 100vh;
+    padding: 70px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.contacts{
+    margin: auto;
+    padding: 40px;
+}
+.comskill{
+    margin: auto;
+    width: 75%;
+    padding: 30px;
+    background-color: #f1f6f8;
+}
+.videos{
+     padding-bottom: 10rem;
+     height:fit-content;
+     width: 100%; 
+     margin: auto; border-radius: 15px; 
+     background-color: rgb(255, 255, 255);
+     margin-top: 40px;
+}
+.videos h2{
+    font-size: 20px;
+}
+.videos p{
+    font-size: 15px;
+}
+.iconsfooter{
+    color: #f1f6f8;
+    margin: 20px;
+}
+.iconsfooter:hover{
+    color: #787777;
+}
+footer {
+    text-align: center;
+    color: rgb(219, 216, 216);
+    
+    background-color: #191919;
+}
+footer p{
+    text-align: center;
+    color: #f1f6f8;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 50%;
+}
